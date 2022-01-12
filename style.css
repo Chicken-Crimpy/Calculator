@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 5px 0;
+    flex: 1 0 auto;
+}
+
+li {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+    flex: 1 1 auto;
+    height: 60%;
+    width: 60%;
+    color: white;
+    background-color: navy;
+}
+
+.equals button {
+    background-color: black;
+}
+
+.operator button {
+    background-color: blue;;
+}
